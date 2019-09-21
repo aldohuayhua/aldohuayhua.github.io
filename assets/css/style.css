@@ -19,6 +19,7 @@
     border-color: #cccccc;
     color: white;
     font-size: 30px;
+    font-weight: bold;
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 25px;
@@ -34,7 +35,8 @@
     padding-top: 15px;
     float: left;
     position: absolute;
-    right: 20%;
+    left: 800px;
+    margin-right: 15px;
 }
 #headline_portfolio {
     color: #777777;
@@ -42,7 +44,9 @@
     padding-top: 15px;
     float: left;
     position: absolute;
-    right: 15%;
+    left: 850px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #headline_contact {
     color: #777777;
@@ -50,7 +54,9 @@
     padding-top: 15px;
     float: left;
     position: absolute;
-    right: 10%;
+    left: 920px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 article {
     clear: both;
@@ -66,7 +72,7 @@ article {
     overflow: auto;
 }
 .header {
-    font-size: 20px;
+    font-size: 25px;
     color: #4aaaa5;
     font-weight: bold;
     border-style: solid;
@@ -75,8 +81,10 @@ article {
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
+    padding-bottom: 20px;
+    font-weight: bolder;
 }
- 
+
 #profile-image {
     padding-right: 20px;
     height: 200px;
@@ -87,7 +95,7 @@ p {
     margin-top: 20px;
    float: left;
     color: #777777;
-   line-height: 25px;
+   line-height: 30px;
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 body {
@@ -95,21 +103,19 @@ body {
     background-image: url("../images/concrete-texture.png");
 
 }
-footer {
-    width: 100%;
-    height: 50px;
-    background-color: #666666;
-    position: absolute;
-    bottom: 0%;
+.copyright {
+    height: 25px;
     text-align: center;
+    width: 100%;
+    background-color: #666666;
     border-style: solid;
-    border-color: #4aaaa5;
     border-width: 5px;
+    border-color: #4aaaa5;
     border-right: hidden;
     border-left: hidden;
     border-bottom: hidden;
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-
+    color: #ffffff;
+    position: absolute;
+    bottom: 0%;
+    font-size: 8px;
 }
