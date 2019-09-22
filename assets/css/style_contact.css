@@ -8,6 +8,8 @@
     border-left: hidden;
     border-right: hidden;
     overflow: auto;
+    font-size: 30px;
+    font-weight: bold;
 }
 h1 {
     background-color: #4aaaa5;
@@ -18,32 +20,40 @@ h1 {
     left: 10%;
     padding: 17px;
 }
-h2 {
+.about {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     color: #777777;
     position: absolute;
     left: 800px;
     padding: 17px;
+    font-size: 15px;
+    font-weight: normal;
+
 
 
 }
-h3 {
+.portfolio {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     color: #777777;
     position: absolute;
     left: 860px;
     padding: 17px;
+    font-size: 15px;
+    font-weight: normal;
 
 }
-h4 {
+.contact_headline {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     float: left;
     position: absolute;
     left: 930px;
     padding: 17px;
+    font-size: 15px;
+    font-weight: normal;
+
 
 }
 body {

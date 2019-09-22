@@ -23,8 +23,8 @@
     font-weight: bold;
 }
 .about {
-    position: relative;
-    left: 55%;
+    position: absolute;
+    left: 800px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-right: 10px;
@@ -34,8 +34,8 @@
 
 }
 .portfolio {
-    position: relative;
-    left: 56%;
+    position: absolute;
+    left: 860px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-right: 10px;
@@ -44,8 +44,8 @@
     float: left;
 }
 .contact {
-    position: relative;
-    left: 57%;
+    position: absolute;
+    left: 930px;
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-right: 10px;
